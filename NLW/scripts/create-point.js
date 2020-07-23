@@ -49,6 +49,8 @@ document
      item.addEventListener("click", handleSelectedItem)
  }
 
+
+const collectedItems = document.querySelector("input[name=items]")
 let selectedItems = []
 
  function handleSelectedItem(event) {  
@@ -73,6 +75,8 @@ let selectedItems = []
        selectedItems = filteredItems
    } else {
        selectedItems.push(itemId)
-       console.log(selectedItems)
+       
    }
+   console.log(selectedItems)
+   collectedItems.value = selectedItems
  }

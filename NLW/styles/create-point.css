@@ -140,7 +140,7 @@ form button:hover {
     flex: 1;
     display: flex;
     align-items: center;
-    color: var(--title-color)
+    color: var(--title-color);
     margin-top: 12px;
 }
 
